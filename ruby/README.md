@@ -14,24 +14,45 @@ $ bundle lock --add-checksums
 ## 3. Execution
 
 ```command
-$ rake run_to_be_determined
+$ rake update_readme
+========== Start Updating README ===========
+========== Finish Updating README ===========
 ```
 
 ## 4. Unit Test
 
 ```command
 $ rake
+Run options: --seed 63787
+
+# Running:
+
+.
+
+Finished in 0.001413s, 707.8218 runs/s, 707.8218 assertions/s.
+
+1 runs, 1 assertions, 0 failures, 0 errors, 0 skips
 ```
 
 ## 5. Static Code Analysis
 
 ```command
 $ rubocop
+Inspecting 5 files
+.....
+
+5 files inspected, no offenses detected
 ```
 
 ## 6. Type Checks
 
 ```command
 $ rbs-inline --output sig/generated/ .
+🎉 Generated 2 RBS files under sig/generated
 $ steep check
+# Type checking files:
+
+....
+
+No type error detected. 🫖
 ```
