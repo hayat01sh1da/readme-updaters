@@ -1,0 +1,5 @@
+# Generated from test/application_test.rb with RBS::Inline
+
+class ApplicationTest < Minitest::Test
+  def test_run: () -> untyped
+end

@@ -1,1 +1,21 @@
-# readme-updaters
+[![Actions Status: Python](https://github.com/hayat01sh1da/pr-title-printers/workflows/Python/badge.svg)](https://github.com/hayat01sh1da/pr-title-printers/actions?query=workflow%3A%22Python%22)
+[![Actions Status: Ruby](https://github.com/hayat01sh1da/pr-title-printers/workflows/Ruby/badge.svg)](https://github.com/hayat01sh1da/pr-title-printers/actions?query=workflow%3A%22Ruby%22)
+[![Actions Status: CodeQL](https://github.com/hayat01sh1da/pr-title-printers/workflows/CodeQL/badge.svg)](https://github.com/hayat01sh1da/pr-title-printers/actions?query=workflow%3A%22CodeQL%22)
+
+## 1. Common Environment
+
+- WSL (Ubuntu 25.10)
+
+## 2. READMEs
+
+- [Ruby](./ruby/README.md)
+- [Python](./python/README.md)
+
+## 3. Source Codes
+
+- [Ruby](./ruby/)
+- [Python](./python/)
+
+## 4. How to Use
+
+TBD
